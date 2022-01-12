@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>First_Page</title>
+        <style>
+            .container{
+                position:relative;
+                text-align:center;
+                margin-top: 50px;
+                margin-left:50px;
+            }
+            .bgimg{
+                opacity:0.4;
+
+            }
+
+            h1{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color:brown;
+                opacity:1;
+                font-family:monospace;
+            }
+            p,ul,ol{
+                margin-left:45%;
+            }
+            .click{
+                height:10%;
+                margin-left: 45%;
+                
+            }
+            .tooltip {
+  margin-left: 18%;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <img class="bgimg" src="vibgyor.jpg" alt="Can't Display Image">
+        <h1>LIST CONVERSIONS</h1>
+       </div>
+
+        <p>Unordered List of Colors<br>
+            <ul>
+                <li>Red</li>
+                <li>Green</li>
+                <li>Yellow</li>
+                <li>Aqua</li>
+                <li>Lavender</li>
+            </ul>
+        </p>
+        <p>Ordered List of Colors<br>
+            <ol>
+                <li>Red</li>
+                <li>Green</li>
+                <li>Yellow</li>
+                <li>Aqua</li>
+                <li>Lavender</li>
+            </ol>
+        </p><br><br>
+
+       <div class="tooltip">
+       <a href="another.html" target="_blank"><img class="click" src="clickme.jpg" alt="Click me"></a>
+       <span class="tooltiptext">Click here to move to another page</span>
+       </div>
+    </body>
+</html>
